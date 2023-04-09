@@ -1,0 +1,4 @@
+﻿{
+  "JsonTemplate1": "JsonTemplate1 {{ values.value_one }}",
+  "JsonTemplate2": "JsonTemplate2 {{ values.value_two }}"
+}

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="$(MSBuildThisFileDirectory)/../Webinex.Temply.All/Package.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Webinex.Temply</PackageId>
+        <RootNamespace>Webinex.Temply</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+      <PackageReference Include="Scriban" Version="5.0.0" />
+      <PackageReference Include="System.Text.Json" Version="6.0.1" />
+      <PackageReference Include="YamlDotNet" Version="11.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Webinex.Temply.Abstractions\Webinex.Temply.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+﻿TxtTemplate {{ values.value_one }}, {{ values.value_two }}

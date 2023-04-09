@@ -1,0 +1,4 @@
+﻿YamlTemplate1: |-
+  YamlTemplate1 {{ values.value_one }}
+YamlTemplate2: |-
+  YamlTemplate2 {{ values.value_two }}

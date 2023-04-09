@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="$(MSBuildThisFileDirectory)/Package.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Webinex.Temply.All</PackageId>
+        <RootNamespace>Webinex.Temply.All</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Webinex.Temply.Abstractions\Webinex.Temply.Abstractions.csproj" />
+      <ProjectReference Include="..\Webinex.Temply\Webinex.Temply.csproj" />
+    </ItemGroup>
+
+</Project>
